@@ -1,0 +1,214 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    max-width: 500px;
+    background-color: #FAFAFA;
+    margin: auto;
+    
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    color: #8B8B8B;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 20px 28px 20px;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    color: white;
+    text-align: center;
+    font-size: 14px; 
+    display: block;
+    border-radius: 20px;
+    height: 40px;
+    width: 195px;
+    text-decoration: none;
+    line-height: 40px;
+   margin: 10px auto;
+    
+}
+
+.chcidobrodruzstvi {
+    background-color: #407BFF;
+}
+
+.radejipohodu {
+    background-color: #8B8B8B;
+}
+
+.heropicture {
+    margin: 60px 75px 40px 75px;
+}
+
+.textlacitko {
+    font-weight: 400;  
+    font-size: 14px;
+    margin: 32px 28px 20px 28px;
+}
+
+.box {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    margin: 15px 20px;
+}
+
+.icon {
+    margin: 20px 0 20px 20px;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    display: block;
+    margin: 0 auto; 
+  }
+
+  @media screen and (min-width: 640px) {
+    
+    body {
+        max-width: 768px;
+
+    }
+
+    .heropicture {
+        margin: 60px 184px 30px 184px;
+        max-width: 400px;
+       
+  }
+
+  p {
+    margin: 20px 109px 40px 109px;
+  }
+
+  .butons {
+    display: flex;
+    margin: 0 109px 0 109px;
+  }
+
+  .box {
+    display: block;
+    margin: 0px 10px;
+  }
+  .boxes {
+    display: flex;
+
+  }
+
+  .icon {
+    margin: 40px 92px 0 92px;
+}
+}
+
+@media screen and (min-width: 1100px) {
+   
+body {
+        max-width: 1200px;
+        padding: 60px 80px;
+     
+ }
+ 
+h1, h2, p {
+    text-align: left;
+    }
+
+p {
+    margin: 30px 0;
+    
+}  
+
+ .hero {
+        display: flex;
+      
+    }
+        .heropicture {
+         flex: 0 0 490px;
+         order: 2;
+         max-width: 425px;
+        align-items: center;
+        padding-left: 30px;
+        margin: auto
+        }
+
+        .herotext {
+        flex: 0 0 490px;
+        order: 1;
+        text-align: left;
+        padding-right: 30px;
+        }
+  
+        h1 {
+        margin: 70px 0 10px 0;
+        }
+        .line {
+         margin: 0 0;
+        }
+
+        .butons {
+    margin: 30px 10px 80px 0px;
+        }
+
+.Sluzbykancelare {
+    display: flex;
+    margin-top: 80px;
+}
+
+    .kancltext {
+    flex: 1 1 430px;
+    order: 2;
+    padding-left: 60px;
+    }
+
+    .kancelar {
+    flex: 1 1 550px;
+    order: 1;
+    }
+
+    .icon {
+    margin: 40px 60px 20px 60px;
+    }
+
+    .textlacitko {
+        margin: 0 15px;
+    }
+
+.Sluzbydelegatu {
+    display: flex;
+    margin-top: 80px;
+}
+
+    .delegati {
+    flex: 1 1 550px;
+    }
+
+    .delegatitext {
+    flex: 1 1 430px; 
+    padding-right: 60px;
+    }
+
+}
