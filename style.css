@@ -5,6 +5,7 @@ body {
     max-width: 500px;
     background-color: #FAFAFA;
     margin: auto;
+
     
 }
 
@@ -93,6 +94,7 @@ a {
     
     body {
         max-width: 768px;
+        padding: 60px auto;
 
     }
 
@@ -113,7 +115,7 @@ a {
 
   .box {
     display: block;
-    margin: 0px 10px;
+    margin: 15px 10px;
   }
   .boxes {
     display: flex;
